@@ -52,7 +52,7 @@ folders:
 ```
 
 ## Hostsの書き換え
-ローカルマシン上でhttp://homestead.appでアクセスするとLaravelを実行している仮想マシンにつながるようにするためHostsファイルを書き換える
+ローカルマシン上で`http://homestead.app`でアクセスするとLaravelを実行している仮想マシンにつながるようにするためHostsファイルを書き換える
 ```
 vi /etc/hosts
 ```
@@ -73,7 +73,7 @@ composer create-project laravel/laravel --prefer-dist
 Homesteadフォルダに移動し`vagrant up`する
 一応`vagrant ssh`してホームディレクトリに`laravel`フォルダがあることを確認。
 
-ブラウザでhttp://homestead.appが"Laravel"と表示されたら完了！
+ブラウザで`http://homestead.app`が"Laravel5"と表示されたら完了！
 
 
 
