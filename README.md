@@ -62,13 +62,17 @@ vi /etc/hosts
 ```
 
 ## Laravelソースのインストール
-先ほど設定したフォルダに移動しcomposerからインストールする。
+先ほど設定したフォルダに移動しcomposerからLaravelプロジェクトを作成する
 ```
-composer require laravel/homestead --dev
+composer create-project laravel/laravel --prefer-dist
 ```
+
+これでフォルダ内に`laravel`フォルダが出来る
 
 ## 仮想マシンを立ち上げる
 Homesteadフォルダに移動し`vagrant up`する
+一応`vagrant ssh`してホームディレクトリに`laravel`フォルダがあることを確認。
+
 ブラウザでhttp://homestead.appが"Laravel"と表示されたら完了！
 
 
